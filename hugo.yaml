@@ -1,4 +1,4 @@
-baseURL: 'https://gregorywiltshire.com/'
+baseURL: "$CF_PAGES_URL"
 languageCode: 'en-us'
 title: 'Gregory Wiltshire'
 theme: 'PaperMod'
