@@ -1,0 +1,72 @@
+baseURL: 'https://gregorywiltshire.com/'
+languageCode: 'en-us'
+title: 'Gregory Wiltshire'
+theme: 'PaperMod'
+layout: "archives"
+
+params:
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    ShowBreadCrumbs: true
+    ShowShareButtons: true
+    ShowToc: true
+    TocOpen: true
+    homeInfoParams:
+        Title: Hello! My name is Greg, I'm a software engineer in Atlanta, GA.
+        Content: Please check out my profiles to see what I'm currently up to.
+
+    # profileMode:
+    #     enabled: false
+    #     title: "<Title>" # optional default will be site title
+    #     subtitle: "This is subtitle"
+    #     imageUrl: "<image link>" # optional
+    #     imageTitle: "<title of image as alt>" # optional
+    #     imageWidth: 120 # custom size
+    #     imageHeight: 120 # custom size
+        
+
+    socialIcons: # optional
+        - name: 'linkedin'
+          url: 'https://www.linkedin.com/in/gregorywiltshire/'
+          title: 'LinkedIn'
+        - name: 'github'
+          url: 'https://github.com/gregorywiltshire'
+          title: 'GitHub'
+        - name: 'stackoverflow'
+          url: 'https://stackoverflow.com/users/4983783/gregorywiltshire'
+          title: 'StackOverflow'
+        - name: 'email'
+          url: 'mailto:hiregregwiltshire@gmail.com'
+          title: 'Email'
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Home
+                  url: /
+                  weight: 1
+                - name: Résumé
+                  url: /resume.pdf
+                  weight: 2
+                - name: Archive
+                  url: archives
+                  weight: 3
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
