@@ -1,7 +1,7 @@
 ---
 title: "Abusing Terraform Variable Validations for Science"
 date: 2023-06-01T19:31:34-04:00
-draft: true
+draft: false
 author: "Gregory Wiltshire"
 description: ""
 tags: ["Terraform", "Testing"]
@@ -93,6 +93,7 @@ toset([
 ```
 
 To see the text content of files, and the hash of said text.
+
 ```shell
 > file("../prod/hello.tf")
 <<EOT
