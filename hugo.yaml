@@ -59,7 +59,7 @@ languages:
                   url: /
                   weight: 1
                 - name: Résumé
-                  url: /resume.pdf
+                  url: /gregorywiltshire_resume.pdf
                   weight: 2
                 - name: Archive
                   url: archives
